@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="8de97881-ae77-4286-99b7-6f5fd0ce5283" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/collections/list.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/collections/listApis.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroovyPresentation.iws" />
@@ -711,12 +707,17 @@
       <updated>1421008738601</updated>
       <workItem from="1421008742106" duration="5985000" />
       <workItem from="1421015028675" duration="254000" />
-      <workItem from="1421068836006" duration="1274000" />
+      <workItem from="1421068836006" duration="1308000" />
     </task>
+    <task id="LOCAL-00001" summary="list samples">
+      <created>1421070125057</created>
+      <updated>1421070125057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7513000" />
+    <option name="totallyTimeSpent" value="7547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
@@ -796,6 +797,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="list samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="list samples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
