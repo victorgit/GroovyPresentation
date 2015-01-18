@@ -1,6 +1,7 @@
 package cs
 
 import groovy.json.JsonBuilder
+import groovy.json.JsonSlurper
 
 class Campaign {
 
@@ -25,3 +26,19 @@ String getCampaignsConfigurationForWidget(List<Campaign> campaigns) {
 def getCampaignConfigurationForWidget(Campaign campaign) {
 
 }
+
+String getCampaignText(Campaign campaign) {
+    def variants = getVariantsForCampaign(campaign)
+    variants.find {it.experienceType != "control"}.templateParams?.content
+}
+
+def getVariantsForCampaign(Campaign campaign) {
+    def campaignConfigJson = new JsonSlurper().parseText(campaign.configuration)
+    campaignConfigJson.variantsConfig
+}
+
+boolean isEmailCampaign(long campaignId) {
+    def variants = getVariantsForCampaign(campaignId);
+    variants.findAll {it.experienceType == "lead"}.size() > 0
+}
+
