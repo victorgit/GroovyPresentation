@@ -1,14 +1,39 @@
 package f_http
 
+import groovy.json.JsonSlurper
 @Grab(group='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.7.1')
 import groovyx.net.http.*
 import static groovyx.net.http.ContentType.*
 import static groovyx.net.http.Method.*
 
-    http = new HTTPBuilder('http://jsonplaceholder.typicode.com')
+    http = new HTTPBuilder('http://ajax.googleapis.com')
+
+    def googleQuery() {
+        http.request( GET, TEXT ) { req ->
+            uri.path = '/ajax/services/search/web'
+            uri.query = [ v:'1.0', q: 'Groovy language' ]
+            headers.'User-Agent' = "Mozilla/5.0 Firefox/3.0.4"
+            headers.Accept = 'application/json'
+
+            response.success = { resp, reader ->
+                assert resp.statusLine.statusCode == 200
+                println "Got response: ${resp.statusLine}"
+                println "Content-Type: ${resp.headers.'Content-Type'}"
+                println "First URL is ${new JsonSlurper().parseText(reader.text).responseData.results[0].url}"
+            }
+
+            response.'404' = {
+                println 'Not found'
+            }
+        }
+    }
+
+
+
 
 
     def fetchAlbum() {
+
         http.request(  GET, JSON ) { req ->
             uri.path = "/albums/1"
 
@@ -29,14 +54,8 @@ def createAlbum(title, body) {
         response.success = { resp, json ->
             println "Album was created successfully ${resp.statusLine}"
             println "Album was created successfully ${json}"
-            postId = json.id
-            println "Album was created successfully ${postId}"
         }
     }
 }
 
-println "**************************"
-createAlbum("The Groovy album", "Every Java developer must know Groovy")
-println "**************************"
-fetchAlbum()
-println "**************************"
+googleQuery()

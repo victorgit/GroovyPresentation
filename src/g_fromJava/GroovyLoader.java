@@ -9,6 +9,11 @@ import java.util.Map;
     public class GroovyLoader {
         private static Map<String, Object> cache = new HashMap<String, Object>();
 
+        public static <T> T createGroovyInstance(Class<T> groovyInterface) {
+            String path = getPath(groovyInterface);
+            return createGroovyInstance(path);
+        }
+
         public static <T> T createGroovyInstance(String path) {
             if (cache.containsKey(path)) {
                 return (T)cache.get(path);
@@ -29,6 +34,23 @@ import java.util.Map;
                         "instance for path="+path, e);
             }
         }
+
+        private static <T> String getPath(Class<T> groovyInterface) {
+            String groovyInterfaceName = groovyInterface.getName();
+            String[] groovyInterfaceNameParts = groovyInterfaceName.split("\\.");
+            String groovyInterfaceSimpleName = groovyInterfaceNameParts[groovyInterfaceNameParts.length-1];
+            String groovyClassNameSimpleName = groovyInterfaceSimpleName.substring(1);
+            String path = "app/";
+            for (int i = 0; i < groovyInterfaceNameParts.length - 1; i++) {
+                path += groovyInterfaceNameParts[i];
+                if (i < groovyInterfaceNameParts.length - 2) {
+                    path += "/";
+                }
+            }
+            path = path + "/" + groovyClassNameSimpleName + ".groovy";
+            return path;
+        }
+
     }
 
 

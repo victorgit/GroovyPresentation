@@ -25,6 +25,14 @@ assert java.lang.Integer == object.simple.getClass()
 assert 123.66 == object.fraction
 assert java.math.BigDecimal == object.fraction.getClass()
 
+    json = new JsonSlurper().parseText '''
+         { "name": "John Doe",  /* a comment */
+           "myList": [4, 8, 15, 16, 23, 42]
+         }'''
+
+    assert json.name == "John Doe"
+    assert json.myList == [4, 8, 15, 16, 23, 42]
+
 
 class User {
     String name
