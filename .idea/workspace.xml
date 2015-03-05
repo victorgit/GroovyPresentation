@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de97881-ae77-4286-99b7-6f5fd0ce5283" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/g_fromJava/JavaUsage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/g_fromJava/GroovyLoader.java" afterPath="$PROJECT_DIR$/src/g_fromJava/GroovyLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy" afterPath="$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/e_json/a_jsonSlurper.groovy" afterPath="$PROJECT_DIR$/src/e_json/a_jsonSlurper.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/e_json/b_jsonBuilder1.groovy" afterPath="$PROJECT_DIR$/src/e_json/b_jsonBuilder1.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/d_collections/b_listApis.groovy" afterPath="$PROJECT_DIR$/src/d_collections/b_listApis.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/f_http/b_restclient.groovy" afterPath="$PROJECT_DIR$/src/f_http/b_restclient.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/e_json/c_jsonBuilder2.groovy" afterPath="$PROJECT_DIR$/src/e_json/c_jsonBuilder2.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/d_collections/c_listApis2.groovy" afterPath="$PROJECT_DIR$/src/d_collections/c_listApis2.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/x_cs/campaign_builder.groovy" afterPath="$PROJECT_DIR$/src/x_cs/campaign_builder.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/x_cs/campaign_builder_special.groovy" afterPath="$PROJECT_DIR$/src/x_cs/campaign_builder_special.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/d_collections/d_map.groovy" afterPath="$PROJECT_DIR$/src/d_collections/d_map.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/d_collections/e_mapGroupBy.groovy" afterPath="$PROJECT_DIR$/src/d_collections/e_mapGroupBy.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/x_cs/salesforce.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GroovyPresentation.iws" />
@@ -96,50 +84,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="campaign_builder.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/x_cs/campaign_builder.groovy">
+      <file leaf-file-name="a_jsonSlurper.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/e_json/a_jsonSlurper.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="1069" max-vertical-offset="1776">
+            <state line="36" column="6" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a_httpbuilder.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy">
+      <file leaf-file-name="b_jsonBuilder1.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/e_json/b_jsonBuilder1.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1584">
-              <folding>
-                <element signature="e#16#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UriBuilderJava.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/f_http/UriBuilderJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="campaign.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/x_cs/campaign.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="37" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1176">
+            <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroovyLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/g_fromJava/GroovyLoader.java">
+      <file leaf-file-name="b_restclient.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/f_http/b_restclient.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1488">
+            <state line="9" column="22" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -148,34 +114,16 @@
       <file leaf-file-name="init.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/g_fromJava/init.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="20" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
+            <state line="2" column="0" selection-start="20" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigurationBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/g_fromJava/ConfigurationBuilder.java">
+      <file leaf-file-name="a_httpbuilder.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="264">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationBuilderImpl.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/g_fromJava/ConfigurationBuilderImpl.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaUsage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/g_fromJava/JavaUsage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.23414634" vertical-offset="0" max-vertical-offset="408">
+            <state line="21" column="81" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -184,7 +132,45 @@
       <file leaf-file-name="c_uribuilder.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f_http/c_uribuilder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="29" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+            <state line="29" column="29" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UriBuilderJava.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/f_http/UriBuilderJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesforce.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/x_cs/salesforce.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="91" selection-start="1181" selection-end="1181" vertical-scroll-proportion="1.1809145" vertical-offset="96" max-vertical-offset="780">
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaUsage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/g_fromJava/JavaUsage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="279" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="escape.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/a_groovysh/escape.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="136" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -203,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/strings/Padding.groovy" />
         <option value="$PROJECT_DIR$/src/strings/Apis.groovy" />
         <option value="$PROJECT_DIR$/src/strings/Subscript.groovy" />
         <option value="$PROJECT_DIR$/src/date/date.groovy" />
@@ -254,14 +239,15 @@
         <option value="$PROJECT_DIR$/src/e_json/b_jsonBuilder1.groovy" />
         <option value="$PROJECT_DIR$/src/e_json/c_jsonBuilder2.groovy" />
         <option value="$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy" />
+        <option value="$PROJECT_DIR$/src/x_cs/salesforce.groovy" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="1729" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -326,6 +312,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -358,6 +345,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x_cs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -374,6 +365,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="g_fromJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroovyPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroovyPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f_http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -492,6 +501,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroovyPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GroovyPresentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="a_groovysh" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -499,7 +522,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,7 +557,7 @@
       <recent name="$PROJECT_DIR$/src/json" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.httpbuilder">
+  <component name="RunManager" selected="Groovy.restclient">
     <configuration default="false" name="UriBuilderJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -993,21 +1015,21 @@
       <method />
     </configuration>
     <list size="19">
-      <item index="0" class="java.lang.String" itemvalue="Application.UriBuilderJava" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.listApis2" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.map" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.mapGroupBy" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.jsonSlurper" />
-      <item index="5" class="java.lang.String" itemvalue="Groovy.jsonBuilder" />
-      <item index="6" class="java.lang.String" itemvalue="Groovy.jsonBuilder1" />
-      <item index="7" class="java.lang.String" itemvalue="Groovy.jsonBuilder2" />
-      <item index="8" class="java.lang.String" itemvalue="Groovy.submap" />
-      <item index="9" class="java.lang.String" itemvalue="Groovy.analytics" />
-      <item index="10" class="java.lang.String" itemvalue="Groovy.httpbuilder" />
-      <item index="11" class="java.lang.String" itemvalue="Groovy.restclient" />
-      <item index="12" class="java.lang.String" itemvalue="Groovy.campaigns1" />
-      <item index="13" class="java.lang.String" itemvalue="Groovy.campaigns2" />
-      <item index="14" class="java.lang.String" itemvalue="Groovy.campaigns3" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.listApis2" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.map" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.mapGroupBy" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.jsonSlurper" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.jsonBuilder" />
+      <item index="5" class="java.lang.String" itemvalue="Groovy.jsonBuilder1" />
+      <item index="6" class="java.lang.String" itemvalue="Groovy.jsonBuilder2" />
+      <item index="7" class="java.lang.String" itemvalue="Groovy.submap" />
+      <item index="8" class="java.lang.String" itemvalue="Groovy.analytics" />
+      <item index="9" class="java.lang.String" itemvalue="Groovy.httpbuilder" />
+      <item index="10" class="java.lang.String" itemvalue="Groovy.restclient" />
+      <item index="11" class="java.lang.String" itemvalue="Groovy.campaigns1" />
+      <item index="12" class="java.lang.String" itemvalue="Groovy.campaigns2" />
+      <item index="13" class="java.lang.String" itemvalue="Groovy.campaigns3" />
+      <item index="14" class="java.lang.String" itemvalue="Application.UriBuilderJava" />
       <item index="15" class="java.lang.String" itemvalue="Groovy.list" />
       <item index="16" class="java.lang.String" itemvalue="Groovy.listApis" />
       <item index="17" class="java.lang.String" itemvalue="Groovy.Interpolation" />
@@ -1082,7 +1104,8 @@
       <workItem from="1424806470247" duration="4079000" />
       <workItem from="1424898537328" duration="3129000" />
       <workItem from="1424981295633" duration="1723000" />
-      <workItem from="1425416284085" duration="3107000" />
+      <workItem from="1425416284085" duration="5495000" />
+      <workItem from="1425507443278" duration="1411000" />
     </task>
     <task id="LOCAL-00001" summary="list samples">
       <created>1421070125057</created>
@@ -1116,18 +1139,22 @@
       <created>1424727322130</created>
       <updated>1424727322130</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more">
+      <created>1425419406155</created>
+      <updated>1425419406155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83680000" />
+    <option name="totallyTimeSpent" value="87479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1729" height="1053" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6622691" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40875134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1140,7 +1167,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1148,29 +1174,30 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18454936" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15293421" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48680738" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6622691" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40897098" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26912928" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26912928" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18454936" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48680738" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18454936" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48680738" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1182,9 +1209,9 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1202,12 +1229,12 @@
     </option>
     <MESSAGE value="list samples" />
     <MESSAGE value="list samples&#10;" />
-    <MESSAGE value="more" />
     <MESSAGE value="analytics" />
     <MESSAGE value="analytics&#10;" />
     <MESSAGE value="interpolation" />
     <MESSAGE value="interpolation&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="interpolation&#10;" />
+    <MESSAGE value="more" />
+    <option name="LAST_COMMIT_MESSAGE" value="more" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1217,11 +1244,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/b_strings/A_Find.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/b_strings/C_Apis.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405" />
@@ -1387,51 +1409,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/d_collections/b_listApis.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/d_collections/c_listApis2.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/d_collections/d_map.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/x_cs/campaign_builder_special.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="51" selection-start="1601" selection-end="1648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a_groovysh/escape.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_json/a_jsonSlurper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="15" selection-start="790" selection-end="934" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/e_json/b_jsonBuilder1.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="237" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
-          <folding />
-        </state>
+        <state line="50" column="51" selection-start="1601" selection-end="1648" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/e_json/c_jsonBuilder2.groovy">
@@ -1441,45 +1434,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_http/b_restclient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1032">
-          <folding>
-            <element signature="e#17#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1584">
-          <folding>
-            <element signature="e#16#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_http/c_uribuilder.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="29" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f_http/UriBuilderJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/x_cs/campaign_builder.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1776">
-          <folding />
-        </state>
+        <state line="16" column="46" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1776" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/x_cs/campaign.groovy">
@@ -1519,8 +1476,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/g_fromJava/JavaUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.23414634" vertical-offset="0" max-vertical-offset="408">
+        <state line="11" column="0" selection-start="279" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="408">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/a_groovysh/escape.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="136" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_json/a_jsonSlurper.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/e_json/b_jsonBuilder1.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_http/b_restclient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_http/a_httpbuilder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="81" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_http/c_uribuilder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f_http/UriBuilderJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/x_cs/salesforce.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="91" selection-start="1181" selection-end="1181" vertical-scroll-proportion="1.1809145" vertical-offset="96" max-vertical-offset="780">
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
