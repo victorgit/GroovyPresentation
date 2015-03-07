@@ -32,7 +32,7 @@ def authenticate() {
         http.request( POST, URLENC ) { req ->
             uri.path = "/services/oauth2/token"
             uri.query = query
-            headers.Accept = 'application/json'
+            headers.Accept = JSON
             response.success = { resp, json ->
                accessToken = json.access_token
                instanceUrl = json.instance_url

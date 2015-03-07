@@ -9,27 +9,17 @@ import static groovyx.net.http.ContentType.*
 
     def fetchAlbum() {
         response = rest.get(path: "/albums/1")
-
-        println "Got response: ${response.statusLine}"
-        println "Content-Type: ${response.headers.'Content-Type'}"
         println response.data
-
     }
 
-def createAlbum(title, body) {
+    def createAlbum(title, body) {
 
-    response = rest.post(path: "/albums",
-            body: [title: title, body: body, userId:1],
-            requestContentType: JSON)
+        response = rest.post(path: "/albums",
+                body: [title: title, body: body, userId:1],
+                requestContentType: JSON)
 
-    println "POST response status: ${response.statusLine}"
-    println "Album was created successfully ${response.data}"
-
-
-    postId = response.data.id
-    println "Album was created successfully ${postId}"
-
-}
+        println "Album was created successfully ${response.data.id}"
+    }
 
 println "**************************"
 createAlbum("The Groovy album", "Every Java developer must know Groovy")

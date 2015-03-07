@@ -16,10 +16,9 @@ import static groovyx.net.http.Method.*
             headers.Accept = 'application/json'
 
             response.success = { resp, reader ->
-                assert resp.statusLine.statusCode == 200
-                println "Got response: ${resp.statusLine}"
-                println "Content-Type: ${resp.headers.'Content-Type'}"
-                println "First URL is ${new JsonSlurper().parseText(reader.text).responseData.results[0].url}"
+                def firstResult = new JsonSlurper().parseText(reader.text).
+                        responseData.results[0]
+                println "First URL is ${firstResult.url}"
             }
 
             response.'404' = {
@@ -32,7 +31,7 @@ import static groovyx.net.http.Method.*
 
 
 
-    def fetchAlbum() {
+def fetchAlbum() {
 
         http.request(  GET, JSON ) { req ->
             uri.path = "/albums/1"

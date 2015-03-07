@@ -2,9 +2,12 @@ package d_collections
 
 def emptyMap = [:]
 
-    def map = ["a":1, "b":2, "c":3]
-    assert map.a == 1
-    assert map["a"] == 1
+    groovyMap = ["a":1, "b":2, "c":3].withDefault { 1975 }
+
+    Integer getValueFromMap(String key) {
+        groovyMap[key]
+    }
+
 
     assert map.subMap(["a", "b"]) == ["a":1, "b":2]
     assert map.find {it.value == 2}.key == "b"
