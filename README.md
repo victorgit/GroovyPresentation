@@ -1,0 +1,1 @@
+This repository hold Groovy samples referenced Reversim 2015 "Confessions of a Java developer that fell in love with the Groovy language" http://summit2015.reversim.com/proposal/sk42ziAvy47MGBrLF in presentation and more 
