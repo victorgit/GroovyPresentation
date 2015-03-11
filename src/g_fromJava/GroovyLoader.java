@@ -27,8 +27,8 @@ import java.util.Map;
             try {
                 GroovyClassLoader gcl = new GroovyClassLoader();
                 Class clazz = gcl.parseClass(new File(path));
-                Object aScript = clazz.newInstance();
-                return (T) aScript;
+                Object instance = clazz.newInstance();
+                return (T) instance;
             } catch(Exception e) {
                 throw new RuntimeException("Failed to create groovy " +
                         "instance for path="+path, e);
