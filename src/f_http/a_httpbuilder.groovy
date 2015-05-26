@@ -27,34 +27,4 @@ import static groovyx.net.http.Method.*
         }
     }
 
-
-
-
-
-def fetchAlbum() {
-
-        http.request(  GET, JSON ) { req ->
-            uri.path = "/albums/1"
-
-            response.success = { resp, json ->
-                println "Got response: ${resp.statusLine}"
-                println "Content-Type: ${resp.headers.'Content-Type'}"
-                println json
-            }
-        }
-    }
-
-def createAlbum(title, body) {
-
-    http.request( POST, JSON ) { req ->
-        uri.path = '/albums'
-        body = [title: title, body: body, userId:1]
-
-        response.success = { resp, json ->
-            println "Album was created successfully ${resp.statusLine}"
-            println "Album was created successfully ${json}"
-        }
-    }
-}
-
 googleQuery()
