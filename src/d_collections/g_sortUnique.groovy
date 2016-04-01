@@ -2,7 +2,7 @@ package d_collections
 
 
 
-    person1 = [username: "user1", email: "user1@cs.com", city: "Tel Aviv"]
+    person1 = [new Person(username: "user1", email: "user1@cs.com", city: "Tel Aviv")]
     person2 = [username: "user1", email: "user3@cs.com", city: "Hertzelya"]
     person3 = [username: "user2", email: "user3@cs.com", city: "Kfar Saba"]
     person4 = [username: "user2", email: "user1@cs.com", city: "Tel Aviv"]

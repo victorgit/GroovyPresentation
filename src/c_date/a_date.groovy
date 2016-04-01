@@ -1,12 +1,12 @@
 package c_date
 
-def today = new Date()
+today = new Date()
 println "today is: $today"
 
-def tomorrow = today + 1
+tomorrow = today + 1
 println "tomorrow is: $tomorrow"
 
-def yesterday = today - 1
+yesterday = today - 1
 println "yesterday was $yesterday"
 
 

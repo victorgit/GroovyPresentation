@@ -13,9 +13,13 @@ assert ''.allWhitespace
 assert ' \r\n '.allWhitespace
 assert !'mrhaki'.allWhitespace
 
-i = '201'
-assert i.isInteger() && i.isLong() && i.isBigInteger()
+    i = '201'
+    assert i.isInteger() && i.isLong() && i.isBigInteger()
+    assert i.toInteger() == 201
+    assert i.toDouble() == 201.0
 
+    // Remove first found numbers followed by a whitespace character.
+    assert ('Line contains 20 characters' - ~/\d+\s+/) == 'Line contains characters'
 
 
 
