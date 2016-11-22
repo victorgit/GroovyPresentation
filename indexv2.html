@@ -115,7 +115,7 @@ window._cshq.push(["_updateCart",    // remove the product
 }
   
   <!-- Remove product from cart -->
-function clear(){
+function clearCart(){
   window._cshq = window._cshq || []; // confirm that the events queue exists
 
 window._cshq.push(["_clearCart"]);
@@ -143,7 +143,7 @@ window._cshq.push(["_clearCart"]);
 
 <p><button type="button" onClick=rem()>Remove!</button></p>
        <p><button type="button" onClick=update()>Update!</button></p>
-       <p><button type="button" onClick=clear()>Clear!</button></p>
+       <p><button type="button" onClick=clearCart()>Clear!</button></p>
     </section>
 <section>
   
