@@ -99,12 +99,25 @@ window._cshq.push(["_removeFromCart",    // remove the product
       "Quantity" : "1"
    }
 ]);
+}
+  
+  <!-- Remove product from cart -->
+function update(){
+  window._cshq = window._cshq || [];   // always confirm that the events queue exists, or create it
+window._cshq.push(["_updateCart",    // remove the product
+   {
+      "ProductId" : "sku156",
+      "Quantity" : "5",
+     "UnitPrice" : "10.0",
+   }
+]);
+}
+  
+  <!-- Remove product from cart -->
+function clear(){
+  window._cshq = window._cshq || []; // confirm that the events queue exists
 
-
-
-
-
-
+window._cshq.push(["_clearCart"]);
 }
 </script>
 
@@ -128,6 +141,8 @@ window._cshq.push(["_removeFromCart",    // remove the product
       <p><button type="button" onClick=add()>Add!</button></p>
 
 <p><button type="button" onClick=rem()>Remove!</button></p>
+       <p><button type="button" onClick=update()>Update!</button></p>
+       <p><button type="button" onClick=clear()>Clear!</button></p>
     </section>
 <section>
   
