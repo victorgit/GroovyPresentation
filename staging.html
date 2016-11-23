@@ -24,7 +24,65 @@
 
 
 
+<script type='text/javascript'>
+function add(){
+  window._cshq = window._cshq || [];   // always confirm that the events queue exists, or create it
+  window._cshq.push(["_addToCart",    // add the product
+  {
+      "ProductId" : "sku156",
+      "Quantity" : "1",
+      "UnitPrice" : "24.50",
+      "Denomination" : "USD",
+      "Name" : "Riders Cap",
+      "Category" : "Sport Accessories",
+      "Variation" : "Dark Grey"
+  }
+  ]);
+}
 
+
+<!-- Remove product from cart -->
+function rem(){
+  window._cshq = window._cshq || [];   // always confirm that the events queue exists, or create it
+window._cshq.push(["_removeFromCart",    // remove the product
+   {
+      "ProductId" : "sku156",
+      "Quantity" : "1"
+   }
+]);
+}
+  
+  <!-- Remove product from cart -->
+function update(){
+  window._cshq = window._cshq || [];   // always confirm that the events queue exists, or create it
+window._cshq.push(["_updateCart",    // remove the product
+   {
+      "ProductId" : "sku156",
+      "Quantity" : "5",
+     "UnitPrice" : "10.0",
+     "Denomination" : "USD"
+   }
+]);
+}
+  
+  <!-- Remove product from cart -->
+function clearCart(){
+  window._cshq = window._cshq || []; // confirm that the events queue exists
+
+window._cshq.push(["_clearCart"]);
+}
+  
+  <!-- Remove product from cart -->
+function conversion(){
+  window._cshq = window._cshq || [];   // always confirm that the events queue exists, or create it
+window._cshq.push(["_reportConversion", // the event being reported
+      "oid9383", // order number
+      "20.3", // total price
+      "USD", // denomination
+      "customer@email.com"] // customer email
+   );
+}
+</script>
 
 
   </head>
@@ -39,6 +97,14 @@
       <a href="https://github.com/victorgit/GroovyPresentation" class="btn">View on GitHub</a>
       <a href="https://github.com/victorgit/GroovyPresentation/zipball/master" style="color:red" class="btn">Download .zip</a>
       <a href="https://github.com/victorgit/GroovyPresentation/tarball/master" class="btn">Download .tar.gz</a>
+    <br/>
+      
+      <p><button style="color:black;" type="button" onClick=add()>Add</button></p>
+      <p><button style="color:black;" type="button" onClick=rem()>Remove</button></p>
+      <p><button style="color:black;" type="button" onClick=update()>Update</button></p>
+      <p><button style="color:black;" type="button" onClick=clearCart()>Clear</button></p>
+      <p><button style="color:black;" type="button" onClick=conversion()>Conversion</button></p>
+    
     </section>
 
     <section class="main-content">
