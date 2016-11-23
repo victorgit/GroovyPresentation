@@ -120,6 +120,17 @@ function clearCart(){
 
 window._cshq.push(["_clearCart"]);
 }
+  
+  <!-- Remove product from cart -->
+function conversion(){
+  window._cshq = window._cshq || [];   // always confirm that the events queue exists, or create it
+window._cshq.push(["_reportConversion", // the event being reported
+      "oid9383", // order number
+      "20.3", // total price
+      "USD", // denomination
+      "customer@email.com"] // customer email
+   );
+}
 </script>
 
 
@@ -140,10 +151,11 @@ window._cshq.push(["_clearCart"]);
       <a href="https://github.com/victorgit/GroovyPresentation/tarball/master" class="btn">Download .tar.gz</a>
       <br/>
       
-      <p><button style="color:black;" type="button" onClick=add()>Add!</button></p>
-      <p><button style="color:black;" type="button" onClick=rem()>Remove!</button></p>
-      <p><button style="color:black;" type="button" onClick=update()>Update!</button></p>
-      <p><button style="color:black;" type="button" onClick=clearCart()>Clear!</button></p>
+      <p><button style="color:black;" type="button" onClick=add()>Add</button></p>
+      <p><button style="color:black;" type="button" onClick=rem()>Remove</button></p>
+      <p><button style="color:black;" type="button" onClick=update()>Update</button></p>
+      <p><button style="color:black;" type="button" onClick=clearCart()>Clear</button></p>
+      <p><button style="color:black;" type="button" onClick=conversion()>Conversion</button></p>
     </section>
 <section>
   
